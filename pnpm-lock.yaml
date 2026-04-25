@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@tanstack/react-router':
-        specifier: ^1.168.22
+        specifier: ^1.168.23
         version: 1.168.23(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       '@tanstack/react-start':
-        specifier: ^1.167.41
+        specifier: ^1.167.42
         version: 1.167.42(crossws@0.4.5(srvx@0.11.15))(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(tsx@4.21.0))
       '@vanilla-extract/css':
-        specifier: ^1.15.5
+        specifier: ^1.20.1
         version: 1.20.1
       react:
         specifier: ^19.2.5
@@ -43,7 +43,7 @@ importers:
         specifier: ^3.0.260415-beta
         version: 3.0.260415-beta(vite@8.0.8(@types/node@25.6.0)(esbuild@0.28.0)(tsx@4.21.0))
       typescript:
-        specifier: ^6.0.2
+        specifier: ^6.0.3
         version: 6.0.3
       vite:
         specifier: ^8.0.8

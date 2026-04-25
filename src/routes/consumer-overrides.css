@@ -1,0 +1,33 @@
+/*
+ * Plain CSS file (not vanilla-extract) with hardcoded class names.
+ * Used by the `/amplified` route via a deferred dynamic import so
+ * the flash window is wide enough to perceive on localhost — see
+ * `routes/-consumer-styles-loader.tsx` for the deferral mechanism
+ * and `docs/CSS-CASCADE-ORDERING-BUG.md` for the rationale.
+ *
+ * NOTE: this is the *perception amplifier*. The faithful repro is
+ * `routes/index.tsx`, which uses eager vanilla-extract throughout —
+ * matching the production app structure where the bug originates.
+ */
+
+.consumer-panel {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.consumer-button {
+  background: #dcfce7;
+  color: #166534;
+  border-color: #166534;
+}
+
+.consumer-badge {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.consumer-card {
+  background: #dcfce7;
+  color: #166534;
+  border-color: #166534;
+}
